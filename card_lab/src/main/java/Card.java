@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Card {
 
-public enum Card {
+    private  CardSuit suit;
+    private  CardHierarchy hierarchy;
+
+    public Card(CardSuit suit, CardHierarchy hierarchy){
+        this.suit = suit;
+        this.hierarchy = hierarchy;
+    }
 }
